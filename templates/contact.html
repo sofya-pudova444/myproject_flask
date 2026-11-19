@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Контакты - Цветочная симфония{% endblock %}
+
+{% block content %}
+<section class="contacts-section">
+    <div class="container">
+        <h1 class="contacts-title">Наши цветочные салоны в Чебоксарах</h1>
+
+        <div class="contacts-phone">+7-835-223-8769</div>
+
+        <ul class="contact-info-list">
+            <li class="contact-info-item">
+                <!-- Иконка локации -->
+                <svg viewBox="0 0 24 24">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Чебоксары, Московский пр-т, д. 38</span>
+            </li>
+            <li class="contact-info-item">
+                <!-- Иконка часов -->
+                <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span>Пн-Вс, 7:00-22:00</span>
+            </li>
+        </ul>
+    </div>
+</section>
+{% endblock %}

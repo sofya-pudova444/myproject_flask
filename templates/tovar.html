@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}Каталог товаров{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="catalog">
+        <!-- Карточка 1 -->
+        <div class="card">
+            <span class="badge badge-green">Акция</span>
+            <img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=300" alt="Розы">
+            <div class="title">Букет из 15 красных роз</div>
+            <div class="price">4 720 ₽ <span>5 550 ₽</span></div>
+            <button class="order-btn">🛒 Заказать</button>
+        </div>
+
+        <!-- Карточка 2 -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=300" alt="Свежесть">
+            <div class="title">Букет "Рассветная свежесть"</div>
+            <div class="price">2 600 ₽</div>
+            <button class="order-btn">🛒 Заказать</button>
+        </div>
+
+        <!-- Карточка 3 -->
+        <div class="card">
+            <span class="badge badge-purple">Крупный бутон</span>
+            <img src="https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=300" alt="Весенний">
+            <div class="title">Букет "Весеннее солнце"</div>
+            <div class="price">3 170 ₽ <span>4 230 ₽</span></div>
+            <button class="order-btn">🛒 Заказать</button>
+        </div>
+    </div>
+</div>
+{% endblock %}
