@@ -13,7 +13,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /* Убран padding: 20px, чтобы шапка прилегала к верху экрана */
 }
 
 a {
@@ -25,7 +24,7 @@ a {
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 20px; /* Отступы только по бокам */
+    padding: 0 20px;
 }
 
 /* ===== ШАПКА (HEADER) ===== */
@@ -70,7 +69,7 @@ a {
 
 /* ===== ГЛАВНАЯ СТРАНИЦА (HERO) ===== */
 .main {
-    flex: 1; /* Прижимает подвал к низу страницы */
+    flex: 1;
 }
 
 .hero {
@@ -143,7 +142,7 @@ a {
     height: 250px;
     object-fit: cover;
     border-radius: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 35px; /* Увеличенный отступ, чтобы опустить название */
 }
 
 .badge {
